@@ -1,0 +1,4 @@
+
+Task: AC, Accuracy = 43.78%
+Task: AP, Accuracy = 66.84%
+Task: AR, Accuracy = 73.88%
