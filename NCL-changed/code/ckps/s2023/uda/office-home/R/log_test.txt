@@ -1,4 +1,0 @@
-
-Task: RA, Accuracy = 64.44%
-Task: RC, Accuracy = 45.38%
-Task: RP, Accuracy = 77.83%
