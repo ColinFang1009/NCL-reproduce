@@ -1,0 +1,58 @@
+==========================================
+gpu_id:0
+s:2
+t:0
+max_epoch:50
+interval:15
+batch_size:64
+worker:4
+dset:office-home
+lr:0.01
+net:resnet50
+seed:2023
+gent:True
+ent:True
+threshold:0.9
+cls_par:0.1
+ent_par:1.0
+lr_decay1:0.1
+lr_decay2:1.0
+bottleneck:256
+epsilon:1e-05
+layer:wn
+classifier:bn
+distance:cosine
+output:ckps/t_NCL2023
+output_src:ckps/s2023
+smooth:0.1
+da:uda
+ssl:0.0
+k:3
+issave:True
+if_teacher:True
+class_num:65
+s_dset_path:../data/office-home/Product_list.txt
+t_dset_path:../data/office-home/Art_list.txt
+test_dset_path:../data/office-home/Art_list.txt
+output_dir_src:ckps/s2023/uda/office-home/P
+output_dir:ckps/t_NCL2023/uda/office-home/PA
+name:PA
+savename:par_0.1_k_3
+out_file:<_io.TextIOWrapper name='ckps/t_NCL2023/uda/office-home/PA/log_par_0.1_k_3.txt' mode='w' encoding='UTF-8'>
+
+Task: PA, Iter:233/3500; Acc=55.95%
+Task: PA, Iter:466/3500; Acc=68.56%
+Task: PA, Iter:699/3500; Acc=67.49%
+Task: PA, Iter:932/3500; Acc=67.66%
+Task: PA, Iter:1165/3500; Acc=66.83%
+Task: PA, Iter:1398/3500; Acc=67.53%
+Task: PA, Iter:1631/3500; Acc=67.82%
+Task: PA, Iter:1864/3500; Acc=67.66%
+Task: PA, Iter:2097/3500; Acc=67.53%
+Task: PA, Iter:2330/3500; Acc=67.78%
+Task: PA, Iter:2563/3500; Acc=67.70%
+Task: PA, Iter:2796/3500; Acc=67.78%
+Task: PA, Iter:3029/3500; Acc=67.45%
+Task: PA, Iter:3262/3500; Acc=67.41%
+Task: PA, Iter:3495/3500; Acc=67.53%
+Task: PA, Iter:3500/3500; Acc=67.45%

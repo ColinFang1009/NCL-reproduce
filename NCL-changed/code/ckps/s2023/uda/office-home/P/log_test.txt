@@ -1,0 +1,4 @@
+
+Task: PA, Accuracy = 53.48%
+Task: PC, Accuracy = 40.66%
+Task: PR, Accuracy = 73.28%
