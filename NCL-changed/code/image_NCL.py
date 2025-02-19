@@ -393,7 +393,7 @@ def train_target_TS(args):
     mem_src_feat = torch.zeros(len(dsets["source_tr"]), args.bottleneck)
 
     # New: EMA factor
-    ema_m = 0.99  # can tune this (0.95~0.999)
+    ema_m = 0.95  # can tune this (0.95~0.999)
 
     for iter_num in pbar:
         # ----- 5) Student forward -----

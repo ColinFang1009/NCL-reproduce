@@ -4,4 +4,4 @@
 # original: /data/images/
 # new: /home/weikefan/helper/office-home
 
-sed -i 's|/data/images/|/home/weikefan/helper/office-home/|g' ./NCL/data/office-home/*.txt
+sed -i 's|/home/weikefan/helper/office-home/|/home/weikefan/helper/NCL-reproduce/office-home/|g' ./NCL-changed/data/office-home/*.txt

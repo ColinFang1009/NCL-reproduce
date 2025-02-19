@@ -27,7 +27,7 @@ echo "Running NCL"
 echo "-------------------------------------------------------------------------------------------------"
 
 # Step 2: Domain Adaptation from Source to Target (Source: Art, Target: Clipart)
-python image_NCL.py --gpu_id $gpu_id --seed $seed --da uda --dset office-home --output "ckps/t_NCL$seed" --output_src "ckps/s$seed" --s $s --k 3 --cls_par 0.1 --max_epoch 100 --if_teacher 1
+python image_NCL.py --gpu_id $gpu_id --seed $seed --da uda --dset office-home --output "ckps/t_NCL$seed" --output_src "ckps/s$seed" --s $s --k 3 --cls_par 0.1 --max_epoch 50 --if_teacher 1
 
 #python image_mixmatch.py --gpu_id $gpu_id --seed $seed --da uda --dset office-home --output "ckps/mm$seed" --s $s --output_tar "ckps/t$seed" --cls_par 0.3 --ssl 0.6 --choice ent --ps 0.0 --max_epoch 50
 
